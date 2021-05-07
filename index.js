@@ -10,8 +10,8 @@ import SimpleForm from "./form";
 const rootElement = document.getElementById("root");
 
 ReactDOM.render(
-  <Provider store={store}>
-    <div style={{ padding: 15 }}>
+  <Provider store = {store}>
+    <div style={{ padding: 17 }}>
       <h2>Simple Form</h2>
       <SimpleForm onSubmit={showResults} />
       <Values form="simple" />
